@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="es" datatype="plaintext" original="messages" date="2014-01-26T15:19:07Z" product-name="static_info_tables_de">
+		<header/>
+		<body>
+			<trans-unit id="static_territories_item.tr_name_de" xml:space="preserve" approved="yes">
+				<source>Name (DE):</source>
+				<target>Nombre (DE):</target>
+			</trans-unit>
+			<trans-unit id="static_countries_item.cn_official_name_de" xml:space="preserve" approved="yes">
+				<source>Official name (DE):</source>
+				<target>Nombre oficial (DE):</target>
+			</trans-unit>
+			<trans-unit id="static_countries_item.cn_short_de" xml:space="preserve" approved="yes">
+				<source>Short name (DE):</source>
+				<target>Nombre corto (DE):</target>
+			</trans-unit>
+			<trans-unit id="static_country_zones_item.zn_name_de" xml:space="preserve" approved="yes">
+				<source>Name (DE):</source>
+				<target>Nombre (DE):</target>
+			</trans-unit>
+			<trans-unit id="static_languages_item.lg_name_de" xml:space="preserve" approved="yes">
+				<source>Name (DE):</source>
+				<target>Nombre de idioma (DE):</target>
+			</trans-unit>
+			<trans-unit id="static_currencies_item.cu_name_de" xml:space="preserve" approved="yes">
+				<source>Name (DE):</source>
+				<target>Nombre (DE):</target>
+			</trans-unit>
+			<trans-unit id="static_currencies_item.cu_sub_name_de" xml:space="preserve" approved="yes">
+				<source>Sub name (DE):</source>
+				<target>Nombre de subdivisión (DE):</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

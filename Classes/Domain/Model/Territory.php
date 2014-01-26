@@ -1,11 +1,14 @@
 <?php
+namespace SJBR\StaticInfoTables\Domain\Model;
 /***************************************************************
 *  Copyright notice
 *
+*  (c) 2011-2012 Armin Rüdiger Vieweg <info@professorweb.de>
 *  (c) 2013 Stanislas Rolland <typo3(arobas)sjbr.ca>
+*
 *  All rights reserved
 *
-*  This script is part of the Typo3 project. The Typo3 project is
+*  This script is part of the TYPO3 project. The TYPO3 project is
 *  free software; you can redistribute it and/or modify
 *  it under the terms of the GNU General Public License as published by
 *  the Free Software Foundation; either version 2 of the License, or
@@ -22,32 +25,36 @@
 *  This copyright notice MUST APPEAR in all copies of the script!
 ***************************************************************/
 /**
- * Class for updating the db
+ * The Territory model
+ *
+ * @copyright Copyright belongs to the respective authors
+ * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
  */
-class ext_update {
+class Territory extends AbstractEntity {
 	/**
-	 * Main function, returning the HTML content
-	 *
-	 * @return string HTML
+	 * German name of the territory
+	 * @var string
 	 */
-	function main()	{
-		$content = '';
-		$objectManager = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\\CMS\\Extbase\\Object\\ObjectManager');
+	protected $nameDe = '';
 
-		// Clear the class cache
-		$classCacheManager = $objectManager->get('SJBR\\StaticInfoTables\\Cache\\ClassCacheManager');
-		$classCacheManager->reBuild();
-
-		// Update the database
-		$databaseUpdateUtility = $objectManager->get('SJBR\\StaticInfoTables\\Utility\\DatabaseUpdateUtility');
-		$databaseUpdateUtility->doUpdate('static_info_tables_de');
-		
-		$content.= '<p>' . \TYPO3\CMS\Extbase\Utility\LocalizationUtility::translate('updateLanguageLabels', 'StaticInfoTables') . ' static_info_tables_de.</p>';
-		return $content;
+	/**
+	 * Sets the German name of the territory
+	 *
+	 * @param string $nameDe
+	 *
+	 * @return void
+	 */
+	public function setNameDe($nameDe) {
+		$this->nameDe = $nameDe;
 	}
 
-	function access() {
-		return true;
+	/**
+	 * Returns the German name of the territory
+	 *
+	 * @return string
+	 */
+	public function getNameDe() {
+		return $this->nameDe;
 	}
 }
 ?>

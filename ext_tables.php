@@ -1,7 +1,8 @@
 <?php
-if (!defined ('TYPO3_MODE'))     die ('Access denied.');
-
-$tempTablesDef = array (
+if (!defined ('TYPO3_MODE')) {
+	die ('Access denied.');
+}
+$tablesAdditionalFields = array (
 	'static_countries' => array (
 		'cn_short_en' => 'cn_short_de',
 	),
@@ -17,18 +18,20 @@ $tempTablesDef = array (
 	),
 	'static_territories' => array (
 		'tr_name_en' => 'tr_name_de',
-	)
+	),
 );
-
-foreach ($tempTablesDef as $tempTable => $tempFieldDef) {
-	t3lib_div::loadTCA($tempTable);
-	foreach ($tempFieldDef as $tempSourceField => $tempDestField) {
-		$tempColumns = array();
-		$tempColumns[$tempDestField] = $TCA[$tempTable]['columns'][$tempSourceField];
-		$tempColumns[$tempDestField]['label'] = 'LLL:EXT:'.STATIC_INFO_TABLES_DE_EXTkey.'/locallang_db.xml:'.$tempTable.'_item.'.$tempDestField;
-		t3lib_extMgm::addTCAcolumns($tempTable, $tempColumns, 1);
-		t3lib_extMgm::addToAllTCAtypes($tempTable, $tempDestField, '', 'after:'.$tempSourceField);
+foreach ($tablesAdditionalFields as $table => $additionalFields) {
+	if (\TYPO3\CMS\Core\Utility\VersionNumberUtility::convertVersionNumberToInteger(TYPO3_version) < 6001000) {
+		\TYPO3\CMS\Core\Utility\GeneralUtility::loadTCA($table);
+	}
+	foreach ($additionalFields as $sourceField => $destField) {
+		$additionalColumns = array();
+		$additionalColumns[$destField] = $GLOBALS['TCA'][$table]['columns'][$sourceField];
+		$additionalColumns[$destField]['label'] = 'LLL:EXT:static_info_tables_de/Resources/Private/Language/locallang_db.xlf:' . $table . '_item.' . $destField;
+		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns($table, $additionalColumns, 1);
+		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes($table, $destField, '', 'after:' . $sourceField);
 	}
 }
-
+unset($additionalColumns);
+unset($tablesAdditionalFields);
 ?>
