@@ -223,7 +223,7 @@ UPDATE static_countries SET cn_short_de='Slowakei' WHERE cn_iso_2='SK';
 UPDATE static_countries SET cn_short_de='Sierra Leone' WHERE cn_iso_2='SL';
 UPDATE static_countries SET cn_short_de='San Marino' WHERE cn_iso_2='SM';
 UPDATE static_countries SET cn_short_de='Senegal' WHERE cn_iso_2='SN';
-UPDATE static_countries SET cn_short_de='Somalien' WHERE cn_iso_2='SO';
+UPDATE static_countries SET cn_short_de='Somalia' WHERE cn_iso_2='SO';
 UPDATE static_countries SET cn_short_de='Suriname' WHERE cn_iso_2='SR';
 UPDATE static_countries SET cn_short_de='São Tomé und Príncipe' WHERE cn_iso_2='ST';
 UPDATE static_countries SET cn_short_de='El Salvador' WHERE cn_iso_2='SV';
@@ -265,7 +265,7 @@ UPDATE static_countries SET cn_short_de='Mayotte' WHERE cn_iso_2='YT';
 UPDATE static_countries SET cn_short_de='Südafrika' WHERE cn_iso_2='ZA';
 UPDATE static_countries SET cn_short_de='Sambia' WHERE cn_iso_2='ZM';
 UPDATE static_countries SET cn_short_de='Simbabwe' WHERE cn_iso_2='ZW';
-UPDATE static_countries SET cn_short_de='Staat Palästina' WHERE cn_iso_2='PS';
+UPDATE static_countries SET cn_short_de='Palästina' WHERE cn_iso_2='PS';
 UPDATE static_countries SET cn_short_de='Serbien und Montenegro' WHERE cn_iso_2='CS';
 UPDATE static_countries SET cn_short_de='Alandinseln' WHERE cn_iso_2='AX';
 UPDATE static_countries SET cn_short_de='Heard und McDonaldinseln' WHERE cn_iso_2='HM';
@@ -1105,6 +1105,10 @@ UPDATE static_currencies SET cu_name_de='Madagaskar Ariary',cu_sub_name_de='' WH
 UPDATE static_currencies SET cu_name_de='Suriname-Dollar',cu_sub_name_de='' WHERE cu_iso_3='SRD';
 UPDATE static_currencies SET cu_name_de='Neue Türkische Lira',cu_sub_name_de='' WHERE cu_iso_3='TRY';
 UPDATE static_currencies SET cu_name_de='Südsudanesisches Pfund',cu_sub_name_de='Piaster' WHERE cu_iso_3='SSP';
+UPDATE static_currencies SET cu_name_de='Cedi',cu_sub_name_de='Pesewa' WHERE cu_iso_3='GHS';
+UPDATE static_currencies SET cu_name_de='Metical',cu_sub_name_de='Centavo' WHERE cu_iso_3='MZN';
+UPDATE static_currencies SET cu_name_de='Leu',cu_sub_name_de='Ban' WHERE cu_iso_3='RON';
+UPDATE static_currencies SET cu_name_de='Turkmenistan-Manat',cu_sub_name_de='Teňňe' WHERE cu_iso_3='TMT';
 
 
 ## static_languages
@@ -1297,4 +1301,5 @@ UPDATE static_languages SET lg_name_de='Ido-Sprache' WHERE lg_iso_2='IO' AND lg_
 UPDATE static_languages SET lg_name_de='Pali' WHERE lg_iso_2='PI' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Kanadisches Französisch' WHERE lg_iso_2='FR' AND lg_country_iso_2='CA';
 UPDATE static_languages SET lg_name_de='Filipino' WHERE lg_iso_2='TL' AND lg_country_iso_2='PH';
+UPDATE static_languages SET lg_name_de='Montenegrinisch' WHERE lg_iso_2='SR' AND lg_country_iso_2='ME';
 
