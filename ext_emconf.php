@@ -24,13 +24,13 @@ $EM_CONF[$_EXTKEY] = Array (
 	'lockType' => '',
 	'author' => 'Daniel Minder',
 	'author_email' => 'typo3@minder.de',
-	'author_company' => 'none',
+	'author_company' => '',
 	'CGLcompliance' => '',
 	'CGLcompliance_note' => '',
 	'constraints' => array (
 		'depends' => array(
 		    'typo3' => '6.0.6-6.2.99',
-		    'static_info_tables' => '6.0.0-',
+		    'static_info_tables' => '6.0.0-6.0.99',
 		),
 		'conflicts' => array(
 		),
