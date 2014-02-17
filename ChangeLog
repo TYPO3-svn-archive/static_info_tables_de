@@ -1,3 +1,6 @@
+2014-02-17 Daniel Minder <typo3@minder.de>
+        * Removed deprecated parameter from addTCAcolumns call
+
 2014-01-27 Daniel Minder <typo3@minder.de>
 	* Moved to TYPO3 6.x based on static_info_tables templates
 	* Upgrade to changes of static_info_tables 6.0.7
