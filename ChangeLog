@@ -1,3 +1,6 @@
+2014-05-29 Daniel Minder <typo3@minder.de>
+	* Version requirement for static_info_tables updated
+
 2014-02-17 Daniel Minder <typo3@minder.de>
         * Removed deprecated parameter from addTCAcolumns call
 
