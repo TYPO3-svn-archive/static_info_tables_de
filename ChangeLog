@@ -1,3 +1,11 @@
+2014-10-09 Daniel Minder <typo3@minder.de>
+	* Territory 'Lateinamerika und Karibik' added
+	* Include all translations in searchFields
+
+2014-09-16 Daniel Minder <typo3@minder.de>
+	* Name for 'Turkish Lira' corrected
+	* Documentation added
+
 2014-05-29 Daniel Minder <typo3@minder.de>
 	* Version requirement for static_info_tables updated
 

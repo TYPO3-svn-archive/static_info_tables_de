@@ -1,42 +1,40 @@
 <?php
-########################################################################
-# Extension Manager/Repository config file for ext: "static_info_tables_de"
-#
-# Auto generated 20-07-2005 12:06
-#
-# Manual updates:
-# Only the data in the array - anything else is removed by next write
-########################################################################
-$EM_CONF[$_EXTKEY] = Array (
+
+/***************************************************************
+ * Extension Manager/Repository config file for ext "static_info_tables_de".
+ *
+ * Auto generated 10-10-2014 15:37
+ *
+ * Manual updates:
+ * Only the data in the array - everything else is removed by next
+ * writing. "version" and "dependencies" must not be touched!
+ ***************************************************************/
+
+$EM_CONF[$_EXTKEY] = array (
 	'title' => 'Static Info Tables (de)',
 	'description' => 'German (de) language pack for the Static Info Tables providing localized names for countries, currencies and so on.',
 	'category' => 'misc',
-	'shy' => 0,
-	'version' => '6.0.1',
-	'priority' => '',
-	'loadOrder' => '',
-	'module' => '',
+	'version' => '6.1.1',
 	'state' => 'stable',
-	'uploadfolder' => 0,
+	'uploadfolder' => false,
 	'createDirs' => '',
-	'modify_tables' => '',
-	'clearcacheonload' => 1,
-	'lockType' => '',
+	'clearcacheonload' => true,
 	'author' => 'Daniel Minder',
 	'author_email' => 'typo3@minder.de',
 	'author_company' => '',
-	'CGLcompliance' => '',
-	'CGLcompliance_note' => '',
-	'constraints' => array (
-		'depends' => array(
+	'constraints' => 
+	array (
+		'depends' => 
+		array (
 			'typo3' => '6.0.6-6.2.99',
-			'static_info_tables' => '6.0.8-',
+			'static_info_tables' => '6.1.1-',
 		),
-		'conflicts' => array(
+		'conflicts' => 
+		array (
 		),
-		'suggests' => array(
+		'suggests' => 
+		array (
 		),
 	),
-	'_md5_values_when_last_written' => '',
 );
-?>
+

@@ -26,6 +26,7 @@ UPDATE static_territories SET tr_name_de='Melanesien' WHERE tr_iso_nr='54';
 UPDATE static_territories SET tr_name_de='Mikronesien' WHERE tr_iso_nr='57';
 UPDATE static_territories SET tr_name_de='Polynesien' WHERE tr_iso_nr='61';
 UPDATE static_territories SET tr_name_de='Südasien' WHERE tr_iso_nr='34';
+UPDATE static_territories SET tr_name_de='Lateinamerika und Karibik' WHERE tr_iso_nr='419';
 
 
 ## static_countries
@@ -1103,7 +1104,7 @@ UPDATE static_currencies SET cu_name_de='Afghani',cu_sub_name_de='' WHERE cu_iso
 UPDATE static_currencies SET cu_name_de='Serbischer Dinar',cu_sub_name_de='' WHERE cu_iso_3='RSD';
 UPDATE static_currencies SET cu_name_de='Madagaskar Ariary',cu_sub_name_de='' WHERE cu_iso_3='MGA';
 UPDATE static_currencies SET cu_name_de='Suriname-Dollar',cu_sub_name_de='' WHERE cu_iso_3='SRD';
-UPDATE static_currencies SET cu_name_de='Neue Türkische Lira',cu_sub_name_de='' WHERE cu_iso_3='TRY';
+UPDATE static_currencies SET cu_name_de='Türkische Lira',cu_sub_name_de='' WHERE cu_iso_3='TRY';
 UPDATE static_currencies SET cu_name_de='Südsudanesisches Pfund',cu_sub_name_de='Piaster' WHERE cu_iso_3='SSP';
 UPDATE static_currencies SET cu_name_de='Cedi',cu_sub_name_de='Pesewa' WHERE cu_iso_3='GHS';
 UPDATE static_currencies SET cu_name_de='Metical',cu_sub_name_de='Centavo' WHERE cu_iso_3='MZN';
