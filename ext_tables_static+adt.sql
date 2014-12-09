@@ -1,34 +1,3 @@
-## static_territories
-UPDATE static_territories SET tr_name_de='Afrika' WHERE tr_iso_nr='2';
-UPDATE static_territories SET tr_name_de='Ozeanien' WHERE tr_iso_nr='9';
-UPDATE static_territories SET tr_name_de='Nord-, Mittel- und Südamerika' WHERE tr_iso_nr='19';
-UPDATE static_territories SET tr_name_de='Asien' WHERE tr_iso_nr='142';
-UPDATE static_territories SET tr_name_de='Europa' WHERE tr_iso_nr='150';
-UPDATE static_territories SET tr_name_de='Ostasien' WHERE tr_iso_nr='30';
-UPDATE static_territories SET tr_name_de='Südostasien' WHERE tr_iso_nr='35';
-UPDATE static_territories SET tr_name_de='Zentralasien' WHERE tr_iso_nr='143';
-UPDATE static_territories SET tr_name_de='Westasien' WHERE tr_iso_nr='145';
-UPDATE static_territories SET tr_name_de='Südeuropa' WHERE tr_iso_nr='39';
-UPDATE static_territories SET tr_name_de='Osteuropa' WHERE tr_iso_nr='151';
-UPDATE static_territories SET tr_name_de='Nordeuropa' WHERE tr_iso_nr='154';
-UPDATE static_territories SET tr_name_de='Westeuropa' WHERE tr_iso_nr='155';
-UPDATE static_territories SET tr_name_de='Südamerika' WHERE tr_iso_nr='5';
-UPDATE static_territories SET tr_name_de='Mittelamerika' WHERE tr_iso_nr='13';
-UPDATE static_territories SET tr_name_de='Nordamerika' WHERE tr_iso_nr='21';
-UPDATE static_territories SET tr_name_de='Karibik' WHERE tr_iso_nr='29';
-UPDATE static_territories SET tr_name_de='Westafrika' WHERE tr_iso_nr='11';
-UPDATE static_territories SET tr_name_de='Ostafrika' WHERE tr_iso_nr='14';
-UPDATE static_territories SET tr_name_de='Nordafrika' WHERE tr_iso_nr='15';
-UPDATE static_territories SET tr_name_de='Zentralafrika' WHERE tr_iso_nr='17';
-UPDATE static_territories SET tr_name_de='Südafrika' WHERE tr_iso_nr='18';
-UPDATE static_territories SET tr_name_de='Australien und Neuseeland' WHERE tr_iso_nr='53';
-UPDATE static_territories SET tr_name_de='Melanesien' WHERE tr_iso_nr='54';
-UPDATE static_territories SET tr_name_de='Mikronesien' WHERE tr_iso_nr='57';
-UPDATE static_territories SET tr_name_de='Polynesien' WHERE tr_iso_nr='61';
-UPDATE static_territories SET tr_name_de='Südasien' WHERE tr_iso_nr='34';
-UPDATE static_territories SET tr_name_de='Lateinamerika und Karibik' WHERE tr_iso_nr='419';
-
-
 ## static_countries
 UPDATE static_countries SET cn_short_de='Andorra' WHERE cn_iso_2='AD';
 UPDATE static_countries SET cn_short_de='Vereinigte Arabische Emirate' WHERE cn_iso_2='AE';
@@ -281,7 +250,6 @@ UPDATE static_countries SET cn_short_de='Bonaire, Sint Eustatius und Saba' WHERE
 UPDATE static_countries SET cn_short_de='Curaçao' WHERE cn_iso_2='CW';
 UPDATE static_countries SET cn_short_de='Sint Maarten' WHERE cn_iso_2='SX';
 UPDATE static_countries SET cn_short_de='Südsudan' WHERE cn_iso_2='SS';
-
 ## static_country_zones
 UPDATE static_country_zones SET zn_name_de='' WHERE zn_country_iso_2='US' AND zn_code='AL';
 UPDATE static_country_zones SET zn_name_de='' WHERE zn_country_iso_2='US' AND zn_code='AK';
@@ -508,8 +476,8 @@ UPDATE static_country_zones SET zn_name_de='' WHERE zn_country_iso_2='IT' AND zn
 UPDATE static_country_zones SET zn_name_de='' WHERE zn_country_iso_2='IT' AND zn_code='BN';
 UPDATE static_country_zones SET zn_name_de='' WHERE zn_country_iso_2='IT' AND zn_code='BO';
 UPDATE static_country_zones SET zn_name_de='' WHERE zn_country_iso_2='IT' AND zn_code='BR';
-UPDATE static_country_zones SET zn_name_de='' WHERE zn_country_iso_2='IT' AND zn_code='BT';
 UPDATE static_country_zones SET zn_name_de='' WHERE zn_country_iso_2='IT' AND zn_code='BS';
+UPDATE static_country_zones SET zn_name_de='' WHERE zn_country_iso_2='IT' AND zn_code='BT';
 UPDATE static_country_zones SET zn_name_de='' WHERE zn_country_iso_2='IT' AND zn_code='BZ';
 UPDATE static_country_zones SET zn_name_de='' WHERE zn_country_iso_2='IT' AND zn_code='CA';
 UPDATE static_country_zones SET zn_name_de='' WHERE zn_country_iso_2='IT' AND zn_code='CB';
@@ -940,7 +908,6 @@ UPDATE static_country_zones SET zn_name_de='' WHERE zn_country_iso_2='HR' AND zn
 UPDATE static_country_zones SET zn_name_de='Vukovar-Syrmien' WHERE zn_country_iso_2='HR' AND zn_code='16';
 UPDATE static_country_zones SET zn_name_de='' WHERE zn_country_iso_2='HR' AND zn_code='13';
 UPDATE static_country_zones SET zn_name_de='' WHERE zn_country_iso_2='HR' AND zn_code='01';
-
 ## static_currencies
 UPDATE static_currencies SET cu_name_de='UAE Dirham',cu_sub_name_de='' WHERE cu_iso_3='AED';
 UPDATE static_currencies SET cu_name_de='Lek',cu_sub_name_de='' WHERE cu_iso_3='ALL';
@@ -1110,8 +1077,6 @@ UPDATE static_currencies SET cu_name_de='Cedi',cu_sub_name_de='Pesewa' WHERE cu_
 UPDATE static_currencies SET cu_name_de='Metical',cu_sub_name_de='Centavo' WHERE cu_iso_3='MZN';
 UPDATE static_currencies SET cu_name_de='Leu',cu_sub_name_de='Ban' WHERE cu_iso_3='RON';
 UPDATE static_currencies SET cu_name_de='Turkmenistan-Manat',cu_sub_name_de='Teňňe' WHERE cu_iso_3='TMT';
-
-
 ## static_languages
 UPDATE static_languages SET lg_name_de='Abchasisch' WHERE lg_iso_2='AB' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Afar' WHERE lg_iso_2='AA' AND lg_country_iso_2='';
@@ -1166,6 +1131,8 @@ UPDATE static_languages SET lg_name_de='Hindi' WHERE lg_iso_2='HI' AND lg_countr
 UPDATE static_languages SET lg_name_de='Ungarisch' WHERE lg_iso_2='HU' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Isländisch' WHERE lg_iso_2='IS' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Indonesisch' WHERE lg_iso_2='ID' AND lg_country_iso_2='';
+UPDATE static_languages SET lg_name_de='Interlingua' WHERE lg_iso_2='IA' AND lg_country_iso_2='';
+UPDATE static_languages SET lg_name_de='Interlingue' WHERE lg_iso_2='IE' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Inukitut' WHERE lg_iso_2='IU' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Inupiak' WHERE lg_iso_2='IK' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Irisch' WHERE lg_iso_2='GA' AND lg_country_iso_2='';
@@ -1180,6 +1147,7 @@ UPDATE static_languages SET lg_name_de='Rundi-Sprache' WHERE lg_iso_2='RN' AND l
 UPDATE static_languages SET lg_name_de='Koreanisch' WHERE lg_iso_2='KO' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Kurdisch' WHERE lg_iso_2='KU' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Laotisch' WHERE lg_iso_2='LO' AND lg_country_iso_2='';
+UPDATE static_languages SET lg_name_de='Latein' WHERE lg_iso_2='LA' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Lettisch' WHERE lg_iso_2='LV' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Lingala' WHERE lg_iso_2='LN' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Litauisch' WHERE lg_iso_2='LT' AND lg_country_iso_2='';
@@ -1208,6 +1176,7 @@ UPDATE static_languages SET lg_name_de='Rumänisch' WHERE lg_iso_2='RO' AND lg_c
 UPDATE static_languages SET lg_name_de='Russisch' WHERE lg_iso_2='RU' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Samoanisch' WHERE lg_iso_2='SM' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Sango' WHERE lg_iso_2='SG' AND lg_country_iso_2='';
+UPDATE static_languages SET lg_name_de='Sanskrit' WHERE lg_iso_2='SA' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Serbisch' WHERE lg_iso_2='SR' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Süd-Sotho-Sprache' WHERE lg_iso_2='ST' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Tswana-Sprache' WHERE lg_iso_2='TN' AND lg_country_iso_2='';
@@ -1240,12 +1209,15 @@ UPDATE static_languages SET lg_name_de='Ukrainisch' WHERE lg_iso_2='UK' AND lg_c
 UPDATE static_languages SET lg_name_de='Urdu' WHERE lg_iso_2='UR' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Usbekisch' WHERE lg_iso_2='UZ' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Vietnamesisch' WHERE lg_iso_2='VI' AND lg_country_iso_2='';
+UPDATE static_languages SET lg_name_de='Volapük' WHERE lg_iso_2='VO' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Kymrisch' WHERE lg_iso_2='CY' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Wolof' WHERE lg_iso_2='WO' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Xhosa' WHERE lg_iso_2='XH' AND lg_country_iso_2='';
+UPDATE static_languages SET lg_name_de='Jiddisch' WHERE lg_iso_2='YI' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Joruba' WHERE lg_iso_2='YO' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Zulu' WHERE lg_iso_2='ZU' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Bosnisch' WHERE lg_iso_2='BS' AND lg_country_iso_2='';
+UPDATE static_languages SET lg_name_de='Avestisch' WHERE lg_iso_2='AE' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Akan' WHERE lg_iso_2='AK' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Aragonesisch' WHERE lg_iso_2='AN' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Awarisch' WHERE lg_iso_2='AV' AND lg_country_iso_2='';
@@ -1253,6 +1225,7 @@ UPDATE static_languages SET lg_name_de='Bambara-Sprache' WHERE lg_iso_2='BM' AND
 UPDATE static_languages SET lg_name_de='Tschetschenisch' WHERE lg_iso_2='CE' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Chamorro-Sprache' WHERE lg_iso_2='CH' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Cree' WHERE lg_iso_2='CR' AND lg_country_iso_2='';
+UPDATE static_languages SET lg_name_de='Kirchenslawisch' WHERE lg_iso_2='CU' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Tschuwaschisch' WHERE lg_iso_2='CV' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Maledivisch' WHERE lg_iso_2='DV' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Ewe-Sprache' WHERE lg_iso_2='EE' AND lg_country_iso_2='';
@@ -1262,6 +1235,8 @@ UPDATE static_languages SET lg_name_de='Kreolisch' WHERE lg_iso_2='HT' AND lg_co
 UPDATE static_languages SET lg_name_de='Herero-Sprache' WHERE lg_iso_2='HZ' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Igbo-Sprache' WHERE lg_iso_2='IG' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Sichuan Yi' WHERE lg_iso_2='II' AND lg_country_iso_2='';
+UPDATE static_languages SET lg_name_de='Ido-Sprache' WHERE lg_iso_2='IO' AND lg_country_iso_2='';
+UPDATE static_languages SET lg_name_de='Javanisch' WHERE lg_iso_2='JV' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Kongo' WHERE lg_iso_2='KG' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Kikuyu-Sprache' WHERE lg_iso_2='KI' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Kwanyama' WHERE lg_iso_2='KJ' AND lg_country_iso_2='';
@@ -1282,25 +1257,43 @@ UPDATE static_languages SET lg_name_de='Navajo-Sprache' WHERE lg_iso_2='NV' AND 
 UPDATE static_languages SET lg_name_de='Chewa-Sprache' WHERE lg_iso_2='NY' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Ojibwa-Sprache' WHERE lg_iso_2='OJ' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Ossetisch' WHERE lg_iso_2='OS' AND lg_country_iso_2='';
+UPDATE static_languages SET lg_name_de='Pali' WHERE lg_iso_2='PI' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Sardisch' WHERE lg_iso_2='SC' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Nord-Samisch' WHERE lg_iso_2='SE' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Tahitisch' WHERE lg_iso_2='TY' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Venda-Sprache' WHERE lg_iso_2='VE' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Wallonisch' WHERE lg_iso_2='WA' AND lg_country_iso_2='';
-UPDATE static_languages SET lg_name_de='Javanisch' WHERE lg_iso_2='JV' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Portugiesisch' WHERE lg_iso_2='PT' AND lg_country_iso_2='BR';
 UPDATE static_languages SET lg_name_de='Chinesisch (vereinfacht)' WHERE lg_iso_2='ZH' AND lg_country_iso_2='CN';
-UPDATE static_languages SET lg_name_de='Interlingua' WHERE lg_iso_2='IA' AND lg_country_iso_2='';
-UPDATE static_languages SET lg_name_de='Interlingue' WHERE lg_iso_2='IE' AND lg_country_iso_2='';
-UPDATE static_languages SET lg_name_de='Latein' WHERE lg_iso_2='LA' AND lg_country_iso_2='';
-UPDATE static_languages SET lg_name_de='Sanskrit' WHERE lg_iso_2='SA' AND lg_country_iso_2='';
-UPDATE static_languages SET lg_name_de='Volapük' WHERE lg_iso_2='VO' AND lg_country_iso_2='';
-UPDATE static_languages SET lg_name_de='Jiddisch' WHERE lg_iso_2='YI' AND lg_country_iso_2='';
-UPDATE static_languages SET lg_name_de='Avestisch' WHERE lg_iso_2='AE' AND lg_country_iso_2='';
-UPDATE static_languages SET lg_name_de='Kirchenslawisch' WHERE lg_iso_2='CU' AND lg_country_iso_2='';
-UPDATE static_languages SET lg_name_de='Ido-Sprache' WHERE lg_iso_2='IO' AND lg_country_iso_2='';
-UPDATE static_languages SET lg_name_de='Pali' WHERE lg_iso_2='PI' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_de='Kanadisches Französisch' WHERE lg_iso_2='FR' AND lg_country_iso_2='CA';
 UPDATE static_languages SET lg_name_de='Filipino' WHERE lg_iso_2='TL' AND lg_country_iso_2='PH';
 UPDATE static_languages SET lg_name_de='Montenegrinisch' WHERE lg_iso_2='SR' AND lg_country_iso_2='ME';
-
+## static_territories
+UPDATE static_territories SET tr_name_de='Afrika' WHERE tr_iso_nr='2';
+UPDATE static_territories SET tr_name_de='Ozeanien' WHERE tr_iso_nr='9';
+UPDATE static_territories SET tr_name_de='Nord-, Mittel- und Südamerika' WHERE tr_iso_nr='19';
+UPDATE static_territories SET tr_name_de='Asien' WHERE tr_iso_nr='142';
+UPDATE static_territories SET tr_name_de='Europa' WHERE tr_iso_nr='150';
+UPDATE static_territories SET tr_name_de='Ostasien' WHERE tr_iso_nr='30';
+UPDATE static_territories SET tr_name_de='Südostasien' WHERE tr_iso_nr='35';
+UPDATE static_territories SET tr_name_de='Zentralasien' WHERE tr_iso_nr='143';
+UPDATE static_territories SET tr_name_de='Westasien' WHERE tr_iso_nr='145';
+UPDATE static_territories SET tr_name_de='Südeuropa' WHERE tr_iso_nr='39';
+UPDATE static_territories SET tr_name_de='Osteuropa' WHERE tr_iso_nr='151';
+UPDATE static_territories SET tr_name_de='Nordeuropa' WHERE tr_iso_nr='154';
+UPDATE static_territories SET tr_name_de='Westeuropa' WHERE tr_iso_nr='155';
+UPDATE static_territories SET tr_name_de='Südamerika' WHERE tr_iso_nr='5';
+UPDATE static_territories SET tr_name_de='Mittelamerika' WHERE tr_iso_nr='13';
+UPDATE static_territories SET tr_name_de='Nordamerika' WHERE tr_iso_nr='21';
+UPDATE static_territories SET tr_name_de='Karibik' WHERE tr_iso_nr='29';
+UPDATE static_territories SET tr_name_de='Westafrika' WHERE tr_iso_nr='11';
+UPDATE static_territories SET tr_name_de='Ostafrika' WHERE tr_iso_nr='14';
+UPDATE static_territories SET tr_name_de='Nordafrika' WHERE tr_iso_nr='15';
+UPDATE static_territories SET tr_name_de='Zentralafrika' WHERE tr_iso_nr='17';
+UPDATE static_territories SET tr_name_de='Südafrika' WHERE tr_iso_nr='18';
+UPDATE static_territories SET tr_name_de='Australien und Neuseeland' WHERE tr_iso_nr='53';
+UPDATE static_territories SET tr_name_de='Melanesien' WHERE tr_iso_nr='54';
+UPDATE static_territories SET tr_name_de='Mikronesien' WHERE tr_iso_nr='57';
+UPDATE static_territories SET tr_name_de='Polynesien' WHERE tr_iso_nr='61';
+UPDATE static_territories SET tr_name_de='Südasien' WHERE tr_iso_nr='34';
+UPDATE static_territories SET tr_name_de='Lateinamerika und Karibik' WHERE tr_iso_nr='419';

@@ -1,3 +1,7 @@
+2014-12-09 Daniel Minder <typo3@minder.de>
+	* Compatibility update for static_info_tables 6.2.0
+	* Requires TYPO3 6.2
+
 2014-10-09 Daniel Minder <typo3@minder.de>
 	* Territory 'Lateinamerika und Karibik' added
 	* Include all translations in searchFields
