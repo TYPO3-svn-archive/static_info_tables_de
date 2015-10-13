@@ -1,3 +1,6 @@
+2015-10-13 Daniel Minder <typo3@minder.de>
+	* Compatibility update for static_info_table 6.3.1
+
 2014-12-09 Daniel Minder <typo3@minder.de>
 	* Compatibility update for static_info_tables 6.2.0
 	* Requires TYPO3 6.2
